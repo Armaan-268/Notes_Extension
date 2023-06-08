@@ -16,7 +16,7 @@ Razor Notes is a Chrome extension that allows you to store notes and bookmark ta
 1. Clone or download the repository to your local machine.
 
     ``` 
-    [GitHub](https://github.com/user/repo/blob/branch/other_file.md)
+    https://github.com/Armaan-268/Notes_Extension
     ```
 
 2. Open Google Chrome and navigate to chrome://extensions.
