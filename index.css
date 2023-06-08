@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #FF6969;
+    padding: 20px;
+    width: 450px;
+    font-size: 15px ;
+    
+}
+/* A6D0DD FF6969 FFD3B0 FFF9DE*/
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow:scroll;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    flex-direction: row;
+}
+.tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 420px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 4px solid #000000;
+    background-color: #FFF9DE;
+    border-radius: 10px;
+}
+button {
+    background: #FFD3B0;
+    cursor: pointer;
+    color: black;
+    padding: 10px 20px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#delete-btn {
+    background: #A6D0DD;
+    color: black;
+}
+
+ul {
+    margin-left: 5px;
+    /* list-style-image: url("arrow.png"); */
+    list-style: circle;
+    list-style-position: outside;
+    font-size: large;
+    color: #000000;
+}
+
+li {
+    margin-top: 5px;
+}
+a{
+    list-style: square;
+    color: #000000;
+}
+
+
+
+/* Style the tab */
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    width: 40%;
+    border: 0px solid black;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.5s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #FFD3B0;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #FF6969;
+  }
+  .tablinks{
+    text-align: center;
+  }
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    /* height: 460px; */
+    width: 420px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 5px solid #000000;
+    background-color: #FFF9DE;
+    border-radius: 10px;
+    overflow:scroll
+  }
