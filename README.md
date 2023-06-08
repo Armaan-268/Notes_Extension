@@ -30,9 +30,9 @@ Razor Notes is a Chrome extension that allows you to store notes and bookmark ta
 ## Usage
 Click on the Razor Notes icon in the toolbar to open the extension popup.
 
-To add a note, click on the "New Note" button, enter your text, and click "Save".
+To add a note, enter your text in the input field, and click "Save Input".
 
-To bookmark a tab, click on the "Bookmark Tab" button. The current tab will be saved as a bookmark.
+To bookmark a tab, click on the "Save Tab" button. The current tab will be saved as a bookmark.
 
 To view and manage your notes and bookmarks, click on the corresponding buttons in the extension popup.
 
